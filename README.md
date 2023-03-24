@@ -14,9 +14,9 @@ It is built using <br>
 
 ### Features
 
-:heavy_check_mark: Create a dynamic user interface with React components and responsive versions adapt to desktop and mobile screen devices.
+:heavy_check_mark: Create a dynamic user interface with React components and responsive versions adapt to desktop and mobile screen devices
 
-:heavy_check_mark: Gallery page with a selection of drone photographs.
+:heavy_check_mark: Gallery page with a selection of drone photographs
 
 :heavy_check_mark: Information page about the drone photography event
 

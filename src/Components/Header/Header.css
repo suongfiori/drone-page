@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-block;
+  background-color: black;
+  padding: .2em .4em;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.logo span {
+  color: #6889FF;
+}
+
+nav ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 66%;
+  background-color: #363B4E;
+  height: 100vh;
+  z-index: 2;
+  padding: 2em 0;
+  transition: transform .3s;
+}
+
+nav ul li a {
+  color: white;
+  display: block;
+  padding: .4em 1.5em;
+  font-size: 1.5rem;;
+  text-align: right;
+}
+
+.exit-btn {
+  text-align: right;
+}
+
+.exit-btn img {
+  width: 2em;
+  margin: 2em;
+  cursor: pointer;
+}
+.menu-btn {
+    width: 2.5em;
+    cursor: pointer;
+}
+

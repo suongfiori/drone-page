@@ -1,0 +1,21 @@
+.top-bg-container {
+    height: 100vh;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 80% auto;
+    z-index: -1;
+  }
+  
+  .light-streaks {
+    background: #B2DD9E url('./assets/streaks.jpg');
+    background-blend-mode: screen;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .blue-col {
+    background-color: #7988BE;
+  }

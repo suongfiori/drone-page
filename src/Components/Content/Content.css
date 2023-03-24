@@ -1,0 +1,52 @@
+.content {
+    text-align: center;
+    margin: 8em 3em 0;
+    height: 75vh;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: 92%;
+  }
+  
+  .type p {
+    font-family: 'Montserrat';
+    font-size: 1.125rem;
+    line-height: 141.6%;
+  }
+  
+  .drone-container {
+    position: relative;
+    margin: 5em auto;
+    width: 65%;
+  }
+  
+  .blur, .drone {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .blur {
+    opacity: .3;
+    top: 1em;
+    animation: pulse 2s alternate-reverse infinite;
+  }
+  
+  .drone {
+    animation: hover 2s alternate-reverse infinite;
+  }
+  
+  @keyframes hover {
+    from {
+        transform: translateY(-30px);
+    }
+  }
+  
+  @keyframes pulse {
+    from {
+        opacity: 0;
+    }
+  }
+  

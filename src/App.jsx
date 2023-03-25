@@ -29,10 +29,12 @@ function App() {
                 handleMenuExit={handleMenuExit}
             />
             <Content />
+        </div>
+        <section>
             <Quote />
             <Gallery />
-            <Contact />  
-        </div>
+            <Contact /> 
+        </section>
     </div>
   )
 }

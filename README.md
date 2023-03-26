@@ -1,6 +1,5 @@
-<h1>Responsive Drone Event Page</h1>
+<h1>Responsive Drone Event</h1>
 
-Drone Photography Event Web Application
 This is a responsive web application built for a fictional drone event includes a gallery of drone photographs, information about the event, and contact information for the organizers.
 
 :arrow_forward: [Live Deployment Link](https://responsive-drone-page.vercel.app/)

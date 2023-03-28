@@ -30,11 +30,11 @@ function App() {
             />
             <Content />
         </div>
-        <section>
+        <div>
             <Quote />
             <Gallery />
             <Contact /> 
-        </section>
+        </div>
     </div>
   )
 }

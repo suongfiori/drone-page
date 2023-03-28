@@ -1,9 +1,9 @@
 import React from 'react'
-import footageOne from '../../assets/footage-1.jpg'
-import footageTwo from '../../assets/footage-2.jpg'
-import footageThree from '../../assets/footage-3.jpg'
-import footageFour from '../../assets/footage-4.jpg'
-import footageFive from '../../assets/footage-5.jpg'
+import footage_1 from '../../assets/footage-1.jpg'
+import footage_2 from '../../assets/footage-2.jpg'
+import footage_3 from '../../assets/footage-3.jpg'
+import footage_4 from '../../assets/footage-4.jpg'
+import footage_5 from '../../assets/footage-5.jpg'
 import "./Gallery.css"
 
 const Gallery = () => {
@@ -15,11 +15,11 @@ const Gallery = () => {
             <p>In 2021, we’re about to double the excitement with 10,000 race participants and 100,000 fans!</p>
         </div>
         <div className="gallery-container">
-            <img src={footageOne} />
-            <img src={footageTwo} />
-            <img src={footageThree} />
-            <img src={footageFour} />
-            <img src={footageFive} />
+            <img src={footage_1} />
+            <img src={footage_2} />
+            <img src={footage_3} />
+            <img src={footage_4} />
+            <img src={footage_5} />
         </div>
     </div>
   )
